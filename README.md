@@ -1,2 +1,3 @@
 # stubby4j-docker
-Tool for stubbing API
+Dockerized stubby4j 'Hello World'.
+

@@ -1,0 +1,22 @@
+-  request:
+      method: GET
+      url: /hello-world
+
+   response:
+      status: 200
+      latency: 1000
+      headers:
+         content-type: application/json; charset=utf-8
+      body: "{'hello world'}"
+
+-  request:
+      method: POST
+      url: /hello-world
+
+   response:
+      status: 200
+      latency: 1000
+      headers:
+         content-type: text/xml; charset=utf-8
+      file: responses/hello_world_response.xml
+
